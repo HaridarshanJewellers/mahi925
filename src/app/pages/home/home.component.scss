@@ -1,0 +1,80 @@
+.home_head_txt{
+    font-family: 'Libre Baskerville';
+font-size: 2.5rem;
+
+}
+.monteserrat{
+    font-family: 'Montserrat';
+font-style: italic;
+}
+.roboto{
+    font-family: "Roboto";
+}
+
+.testimonial_txt{
+    font-family: 'Libre Baskerville';
+    font-size: 2rem;
+    font-weight: 200;
+
+}
+.product_viewer{
+    background-image: linear-gradient(white, #ededed);
+}
+.product_viewer_head{
+    font-family: 'Libre Baskerville';
+    font-size: 2rem;
+}
+
+.View-More{
+    border: 2px solid #D8BD84;
+    border-radius: 1rem;
+    color: #D8BD84;
+    font-family: "Roboto";
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    text-align: center;
+    width: 8rem;
+}
+a{
+    text-decoration: none;
+}
+.product_favicon{
+    border: 1px solid rgba($color: #000000, $alpha: 0.2);
+}
+
+.anima { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+.half-round{
+    background-color: #4A5C48;
+    opacity: 50%;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
+    height: 3rem;
+    width: 7rem;
+}
+.active{
+    border: 1px solid rgba($color: #4A5C48, $alpha: 0.5) !important;
+
+}
+.banner{
+background: url(https://media.discordapp.net/attachments/908639378375581699/1051038018619834408/nbv_n.png?width=1920&height=768);
+
+
+background-color: #282756;
+border: 2px solid black;
+
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}

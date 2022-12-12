@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+
+
+/* Importing FONTS FILE. */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto:wght@100;300;400&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+
+.w-40{
+    width: 40%;
+}
+.w-30{
+    width: 30%;
+}
+.w-20{
+    width: 20%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
+}
+.w-80{
+    width: 80%;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #4A5D48;
+
+    color: white;
+    font-family: 'roboto';
+    font-style: none !important;
+text-align: center;
+padding: 0.4rem;
+width: 30%;
+
+}
