@@ -12,4 +12,13 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  brands = [
+    {title: "Home"},
+    {title: "About us"},
+    {title: "Privacy Policy"},
+    {title: "Return Policy"},
+    {title: "Contact Us"},
+
+  ]
+
 }
