@@ -2,8 +2,22 @@
   font-family: "Libre Baskerville";
   font-size: 2.5rem;
 }
+.mob-dis{
+    display: none;
+}
+.disc_txt {
+  font-size: 1.2rem;
+  line-height: 1.9;
+}
+.review_txt {
+  line-height: 1.9;
+  font-size: 1.2rem;
+}
 .img-1 {
   height: 22rem;
+}
+.review_img {
+  height: 35rem;
 }
 .img-2 {
   height: 30rem;
@@ -90,13 +104,7 @@ a {
   background-size: 100% 100%;
 }
 
-@media only screen and (max-width: 660px) {
-  .home_head_txt {
-    font-size: 1.7rem;
-  }
-
-}
-
+//--------------425px---------------
 @media only screen and (max-width: 425px) {
   .home_head_txt {
     font-size: 1.4rem;
@@ -119,17 +127,36 @@ a {
     transform: translate(0px, -66px);
   }
 }
-@media only screen and (max-width: 992px) {
+
+//--------------545px---------------
+@media only screen and (max-width: 545px) {
   .img-1 {
-    height: 18rem;
+    height: 10rem;
   }
   .img-2 {
-    height: 26rem;
+    height: 14rem;
   }
   .img-3 {
-    height: 20rem;
+    height: 11rem;
   }
 }
+
+//--------------660px---------------
+@media only screen and (max-width: 660px) {
+  .home_head_txt {
+    font-size: 1.7rem;
+  }
+.review_box{
+    display: none !important;
+}
+.img_box{
+    display: none !important;
+}
+
+
+}
+
+//--------------768px---------------
 @media only screen and (max-width: 768px) {
   .img-1 {
     height: 12rem;
@@ -140,4 +167,56 @@ a {
   .img-3 {
     height: 13rem;
   }
+
+  .review_txt {
+    font-size: 0.6rem !important;
+  }
+  .review_head_txt {
+    font-size: 0.8rem !important;
+  }
+  .disc_txt {
+    font-size: 0.6rem !important;
+  }
+  .review_img {
+    height: 16rem !important;
+  }
+
+  .web-dis{
+display: none !important;
 }
+.mob_dis{
+    display:block !important;
+  }
+}
+
+//--------------992px---------------
+@media only screen and (max-width: 992px) {
+  .img-1 {
+    height: 18rem;
+  }
+  .img-2 {
+    height: 26rem;
+  }
+  .img-3 {
+    height: 20rem;
+  }
+  .review_txt {
+    font-size: 0.8rem;
+  }
+  .review_head_txt {
+    font-size: 1rem;
+  }
+  .disc_txt {
+    font-size: 0.8rem;
+  }
+  .review_img {
+    height: 20rem;
+  }
+  .dicover_products{
+    width: 80%;
+}
+
+}
+
+
+
