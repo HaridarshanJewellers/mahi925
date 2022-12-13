@@ -9,7 +9,7 @@ export class HomeComponent implements OnInit {
   mainimg: string = '';
   name: string = "";
   id: number = 0;
-activeValue: number = 0;
+  activeValue: number = 0;
   constructor() { }
 
   ngOnInit(): void {
@@ -57,10 +57,71 @@ activeValue: number = 0;
 
   ]
 
+
+  collection = [
+    {
+      title: "Hershey ring",
+      category: "rings",
+      price: 0,
+      img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
+    },
+    {
+      title: "Hershey ring",
+      category: "rings",
+      price: 0,
+      img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
+    },
+    {
+      title: "Hershey ring",
+      category: "rings",
+      price: 0,
+      img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
+    },
+    {
+      title: "Hershey ring",
+      category: "rings",
+      price: 0,
+      img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
+    },
+    {
+      title: "Hershey ring",
+      category: "rings",
+      price: 0,
+      img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
+    },
+    {
+      title: "Hershey ring",
+      category: "rings",
+      price: 0,
+      img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
+    },
+    {
+      title: "Hershey ring",
+      category: "rings",
+      price: 0,
+      img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
+    },
+    {
+      title: "Hershey ring",
+      category: "rings",
+      price: 0,
+      img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
+    },
+    {
+      title: "Hershey ring",
+      category: "rings",
+      price: 0,
+      img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
+    },
+
+
+
+  ]
+
   productViewer(id: number) {
     this.mainimg = this.products[id - 1].view;
     this.name = this.products[id - 1].name;
-    this.activeValue = this.products[id-1].value;
+    this.activeValue = this.products[id - 1].value;
   }
 
 }

@@ -2,9 +2,6 @@
   font-family: "Libre Baskerville";
   font-size: 2.5rem;
 }
-.mob-dis{
-    display: none;
-}
 .disc_txt {
   font-size: 1.2rem;
   line-height: 1.9;
@@ -31,6 +28,9 @@
 }
 .roboto {
   font-family: "Roboto";
+}
+.our_txt{
+  font-size: 2rem;
 }
 
 .testimonial_txt {
@@ -61,6 +61,7 @@ a {
 }
 .product_favicon {
   border: 1px solid rgba($color: #000000, $alpha: 0.2);
+  height: 6rem;
 }
 
 .anima {
@@ -70,6 +71,9 @@ a {
   animation-timing-function: ease-in-out;
   margin-left: 30px;
   margin-top: 5px;
+  height: auto;
+  width: 70%;
+
 }
 
 @keyframes floating {
@@ -126,6 +130,9 @@ a {
     height: 13rem !important;
     transform: translate(0px, -66px);
   }
+  .product_favicon {
+    height: 4rem !important;
+  }
 }
 
 //--------------545px---------------
@@ -139,6 +146,11 @@ a {
   .img-3 {
     height: 11rem;
   }
+  .product_favicon {
+
+    height: 5rem;
+  }
+  
 }
 
 //--------------660px---------------
@@ -180,12 +192,9 @@ a {
   .review_img {
     height: 16rem !important;
   }
+  .product_viewer_head {
 
-  .web-dis{
-display: none !important;
-}
-.mob_dis{
-    display:block !important;
+    font-size: 1.5rem;
   }
 }
 
@@ -215,7 +224,17 @@ display: none !important;
   .dicover_products{
     width: 80%;
 }
+.half-round {
 
+margin-top: 1rem;
+  border-top-left-radius: 20rem;
+  border-top-right-radius: 20rem;
+  height: 2rem;
+  width: 5rem;
+}
+.ad-banner{
+  display: none;
+}
 }
 
 
