@@ -107,12 +107,7 @@ export class HomeComponent implements OnInit {
       price: 0,
       img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
     },
-    {
-      title: "Hershey ring",
-      category: "rings",
-      price: 0,
-      img: "https://media.discordapp.net/attachments/908639378375581699/1050987936616824832/dfbkj.jpeg",
-    },
+    
 
 
 
